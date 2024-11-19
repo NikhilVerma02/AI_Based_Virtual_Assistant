@@ -1,0 +1,80 @@
+.clock {
+  height: 150px;
+  width: 350px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 17px;
+  color: lightblue;
+}
+
+.time {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  font-size: 30px;
+  color: lightcoral;
+}
+
+.weather {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.weatherImg {
+  width: 80px;
+  position: relative;
+  left: 180px;
+}
+
+.weather h2 {
+  position: relative;
+  left: 180px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.weather p {
+  position: relative;
+  left: 150px;
+  font-size: 30px;
+  color: wheat;
+}
+
+.left {
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  background: white;
+  height: 120px;
+  width: 120px;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+  background: white;
+  height: 120px;
+  width: 120px;
+}
+
+.right img {
+  width: 100%;
+}
